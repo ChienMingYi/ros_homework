@@ -1,0 +1,2 @@
+service_hw
+-DCATKIN_DEVEL_PREFIX=/home/chien/ros_homework/hw5/devel -DCMAKE_INSTALL_PREFIX=/home/chien/ros_homework/hw5/install -G Unix Makefiles

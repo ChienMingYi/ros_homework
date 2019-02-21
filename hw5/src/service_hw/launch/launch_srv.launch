@@ -1,0 +1,14 @@
+<launch>
+    <arg name = "a" value = "5"/>
+    <node
+    pkg = "turtle_srv"
+    type = "cal_pow_service"
+    name = "pow_service"
+    output = "screen"/>
+    <node
+    pkg = "turtle_srv"
+    type = "cal_pow_client"
+    name = "pow_client"
+    args = "$(arg a)"
+    output = "screen"/>
+</launch>
